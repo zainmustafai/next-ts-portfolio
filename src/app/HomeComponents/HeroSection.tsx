@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import { GitHubLogoIcon, InstagramLogoIcon, LinkedInLogoIcon, TwitterLogoIcon } from "@radix-ui/react-icons"
 import { FacebookIcon, LucideFacebook } from "lucide-react"
 import Image from "next/image"
@@ -46,8 +47,10 @@ const HeroSection = () => {
                 {/* SOCIAL LINKS */}
                 <div className="flex justify-center mt-8 space-x-4">
                     {SOCIAL_LINKS.map((social) => (
-                        <a key={social.name
-                        } href={social.link} target="_blank" rel="noreferrer" className="p-2 rounded-full bg-accent duration-75 group">
+                        <a
+                            key={social.name}
+                            aria-label={social.name}
+                            href={social.link} target="_blank" rel="noreferrer" className="p-2 rounded-full bg-accent duration-75 group">
                             {
                                 social.icon
                             }

@@ -28,10 +28,10 @@ const SOCIAL_LINKS = [
 
 const HeroSection = () => {
     return (
-        <section className="container min-h-[70dvh]  flex flex-col items-center justify-center text-foreground">
+        <section className="container min-h-[calc(100dvh-100px)]  flex flex-col items-center justify-center text-foreground">
             {/* HERO SECTION */}
             <div className="w-[200px] h-[200px] rounded-full relative group cursor-pointer z-30">
-                <Image src={"/assets/zain-dp.png"} alt="profile" width={200} height={200} className="rounded-full" loading="lazy" />
+                <Image src={"/assets/zain-dp2.jpg"} alt="profile" width={200} height={200} className="rounded-full" loading="lazy" />
                 <div className="absolute size-full inset-0 -z-10 gradient-primary rotate-1 rounded-full -top-1 -left-1 group-hover:-top-2 group-hover:-left-2" />
                 <div className="absolute size-full inset-0 -z-10 gradient-primary rotate-1 rounded-full mt-1 ml-1 group-hover:ml-2 group-hover:mt-2" />
             </div>

@@ -37,7 +37,7 @@ const HeroSection = () => {
             </div>
             <div className="text-center mt-8">
                 <h2 className="font-bold text-xl md:text-4xl">Hi 👋 I am Zain.</h2>
-                <h1 className="relative max-w-[800px] text-pretty text-2xl md:text-6xl overflow-visible gradient-text py-2 font-black">
+                <h1 className="relative max-w-[800px] text-pretty text-2xl md:text-4xl lg:text-6xl overflow-visible gradient-text py-2 font-black">
                     I&apos;m a web developer hailing from
                     <span className="text-foreground">{" "} 🇵🇰</span>
                 </h1>

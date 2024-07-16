@@ -96,7 +96,7 @@ const AboutMe = () => {
                     I have experience in building web applications
                 </h1>
                 <p className="text-center max-w-2xl mx-auto text-foreground opacity-60 md:text-lg">
-                    I&apos;m passionate about coding and problem-solving, and I'm thrilled to be part of a fast-paced and innovative environment where my contributions have a meaningful impact.
+                    I&apos;m passionate about coding and problem-solving, and I&apos;m thrilled to be part of a fast-paced and innovative environment where my contributions have a meaningful impact.
                 </p>
             </div>
             <div className="container mt-10 grid grid-cols-1  gap-8">

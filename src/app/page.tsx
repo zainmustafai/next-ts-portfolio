@@ -4,6 +4,7 @@ import HeroSection from "./HomeComponents/HeroSection";
 import Navbar from "./HomeComponents/Navbar";
 import AboutMe from "./HomeComponents/AboutMe";
 import ServicesSection from "./HomeComponents/ServicesSection/ServicesSection";
+import HomePortfolioGrid from "./HomeComponents/HomePortfolioGrid/HomePortfolioGrid";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroSection />
       <AboutMe />
       <ServicesSection />
+      <HomePortfolioGrid />
     </main>
   );
 }

@@ -1,3 +1,4 @@
+import SectionHeading from '@/components/shared/SectionHeading'
 import { Card } from '@/components/ui/card'
 import { Brush, BrushIcon, Dot } from 'lucide-react'
 import Image from 'next/image'
@@ -12,13 +13,13 @@ const MY_SERVICES = [
 
 const ServicesSection = () => {
     return (
-        <div className='pt-20'>
+        <div className='py-20'>
 
             <div className='container'>
                 <div className='flex flex-col items-center'>
-                    <h1 className='font-bold text-2xl gradient-text'>
+                    <SectionHeading>
                         #MY SERVICES
-                    </h1>
+                    </SectionHeading>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8 w-full'>
                         {
                             MY_SERVICES.map((service) => (
@@ -42,9 +43,9 @@ const ServicesSection = () => {
             </div>
 
             <div className='relative' >
-                <Image src={"/assets/services-banner.jpg"} width={1920} height={835} alt='services banner' className='w-full object-cover mt-20' />
+                {/* <Image src={"/assets/services-banner.jpg"} width={1920} height={835} alt='services banner' className='w-full object-cover mt-20' /> */}
                 <div className='absolute bottom-0'>
-                    <section className='bg-background' ></section>
+                    <section className='bg-background' />
                 </div>
             </div>
         </div>

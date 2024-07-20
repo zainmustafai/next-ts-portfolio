@@ -7,6 +7,7 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table"
+import SectionHeading from "@/components/shared/SectionHeading";
 
 
 function AboutMeTable() {
@@ -87,11 +88,9 @@ const AboutMe = () => {
     return (
         <div className="bg-accent py-20">
             <div className="container  space-y-4 md:space-y-8">
-                <h2 id="#about" className=" text-2xl font-bold text-center" >
-                    <span className="gradient-text">
-                        #ABOUT ME
-                    </span>
-                </h2>
+                <SectionHeading>
+                    #ABOUT ME
+                </SectionHeading>
                 <h1 className="text-pretty text-2xl md:text-6xl font-black text-center ">
                     I have experience in building web applications
                 </h1>

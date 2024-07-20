@@ -36,7 +36,7 @@ const HomePortfolioGrid: React.FC = (): JSX.Element => {
     return (
         <section className="bg-accent pt-20 space-y-10">
             <SectionHeading>
-                #TECHNOLOGIES I WORK WITH
+                #MY TECH-STACK
             </SectionHeading>
             <div className="grid md:grid-cols-2 w-full" >
                 {portfolioItems.map((item, index) => (

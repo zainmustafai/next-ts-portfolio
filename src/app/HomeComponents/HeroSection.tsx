@@ -27,6 +27,7 @@ const SOCIAL_LINKS = [
 ]
 
 const HeroSection = () => {
+    const ageInYears = new Date().getFullYear() - 2000;
     return (
         <section className="container min-h-[calc(100dvh-100px)]  flex flex-col items-center justify-center text-foreground">
             {/* HERO SECTION */}
@@ -36,11 +37,11 @@ const HeroSection = () => {
                 <div className="absolute size-full inset-0 -z-10 gradient-primary rotate-1 rounded-full mt-1 ml-1 group-hover:ml-2 group-hover:mt-2" />
             </div>
             <div className="text-center mt-8">
-                <h2 className="font-bold text-xl md:text-4xl">Hi 👋 I am Zain.</h2>
-                <h1 className="relative max-w-[800px] text-pretty text-2xl md:text-4xl lg:text-6xl overflow-visible gradient-text py-2 font-black">
-                    I&apos;m a web developer hailing from
-                    <span className="text-foreground">{" "} 🇵🇰</span>
-                </h1>
+                <h2 className="font-medium  text-xl md:text-4xl">Hi 👋 I&apos;m Zain,</h2>
+                <div className="relative max-w-[800px] text-pretty text-2xl md:text-4xl lg:text-6xl overflow-visible gradient-text py-2">
+                    <h1 className="lg:leading-[4.5rem] leading-tight">a {ageInYears} year old developer hailing from pakistan</h1>
+                    <span className="text-foreground">{" "} 🇵🇰 </span>
+                </div>
             </div>
 
             <div>

@@ -75,6 +75,10 @@ const config = {
       transitionDuration: {
         "1500": "1500ms",
         "2000": "2000ms"
+      },
+      lineHeight: {
+        1: "1",
+        10: "2.5rem",
       }
     },
   },

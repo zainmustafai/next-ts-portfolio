@@ -35,7 +35,7 @@ const Navbar = () => {
             <div className="container flex h-full justify-between items-center">
                 <div className="text-2xl font-bold rounded-full">
                     <Link href="/" className="">
-                        <Image src="/assets/logo.png" alt="logo" width={70} height={70} className="mix-blend-difference" />
+                        <Image src="/assets/logo.png" alt="logo" width={70} height={70} className="w-[30px] h-auto mix-blend-difference" />
                     </Link>
                 </div>
                 <nav className="hidden space-x-4 md:flex items-center">
